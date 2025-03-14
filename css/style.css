@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+canvas {
+    border: 2px solid white;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+/* Mensaje para forzar horizontal en móvil */
+#rotateMessage {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40vh;
+}
